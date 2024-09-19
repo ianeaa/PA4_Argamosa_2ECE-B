@@ -2,7 +2,13 @@
 
 This is for my Programming Assignment 4 containing my codes for Experiment 4 - Data Wrangling and Visualization
 
-**ECE BOARD EXAM PROBLEM**: Using data wrangling and data visualization technique with storytelling, analyze the data and present different (i) data frames; and (ii) visuals using the dataset given
+## Instructions
+- Download the ECE Board Exam 2 dataset found on this link: https://bit.ly/ECEBoardExamDataset
+  
+- Write a Python script/code in the Jupyter Notebook to do the given problems
+
+## **ECE BOARD EXAM PROBLEM** 
+Using data wrangling and data visualization technique with storytelling, analyze the data and present different (i) data frames; and (ii) visuals using the dataset given
 
 **1**. Create the following data frames based on the format provided:
 
@@ -39,7 +45,7 @@ Instru = df[(df['Track'] == 'Instrumentation')
             &(df['Electronics'] > 70)][['Name', 'GEAS', 'Electronics']]
 Instru
 ```
-Save the file 
+Save the file incase needed and to verify the output
 ```python
 # save the file as .xlsx
 Instru.to_excel('Instru.xlsx', index = False)
@@ -57,7 +63,7 @@ Mindy = df[(df['Hometown'] == 'Mindanao')
             &(df['Average'] >= 55)][['Name', 'Track', 'Electronics', 'Average']]
 Mindy
 ```
-Save the file 
+Save the file incase needed and to verify the output
 ```python
 # save the file as .xlsx
 Mindy.to_excel('Mindy.xlsx', index = False)
