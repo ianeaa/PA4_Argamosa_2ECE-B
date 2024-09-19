@@ -1,4 +1,4 @@
-# EXPERIMENT 3 - Python Data Analysis
+# EXPERIMENT 4 - Data Wrangling and Visualization
 
 This is for my Programming Assignment 4 containing my codes for Experiment 4 - Data Wrangling and Visualization
 
